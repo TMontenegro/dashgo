@@ -3,7 +3,7 @@ import DGInput from "../components/Form/DGInput";
 
 export default function SignIn() {
   return (
-    <Flex w="100vw" h="100vh" align="center" justify="center">
+    <Flex w="100vw" h="100vh" alignItems="center" justifyContent="center">
       <Flex
         as="form"
         w="100%"
