@@ -1,24 +1,24 @@
-import { Flex, Button, Stack } from "@chakra-ui/react";
-import DGInput from "../components/Form/DGInput";
+import { Flex, Button, Stack } from '@chakra-ui/react';
+import DGInput from '../components/Form/DGInput';
 
 export default function SignIn() {
   return (
-    <Flex w="100vw" h="100vh" alignItems="center" justifyContent="center">
+    <Flex w='100vw' h='100vh' alignItems='center' justifyContent='center'>
       <Flex
-        as="form"
-        w="100%"
+        as='form'
+        w='100%'
         maxWidth={360}
-        bg="gray.800"
-        p="8"
+        bg='gray.800'
+        p='8'
         borderRadius={8}
-        flexDir="column"
+        flexDir='column'
       >
         <Stack spacing={4}>
-          <DGInput name="email" type="email" label="E-mail" />
-          <DGInput name="password" type="password" label="Senha" />
+          <DGInput name='email' type='email' label='E-mail' />
+          <DGInput name='password' type='password' label='Senha' />
         </Stack>
 
-        <Button type="submit" mt="6" colorScheme="pink" size="lg">
+        <Button type='submit' mt='6' colorScheme='pink' size='lg'>
           Entrar
         </Button>
       </Flex>
